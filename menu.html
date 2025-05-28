@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu | The Cozy Coffee Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg bg-dark navbar-dark py-3 shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Logo.png" height="50px" width="100px" alt="The Cozy Coffee Shop Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html" aria-current="page">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservations.html">Reservations</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Header -->
+  <section class="hero bg-warm-beige py-5 text-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold mb-3">Explore Our Menu</h1>
+      <p class="lead">Crafted with love and brewed to perfection.</p>
+    </div>
+  </section>
+
+  <!-- Menu Categories -->
+  <section class="menu-section py-5 bg-off-white">
+    <div class="container">
+      <!-- Coffee -->
+      <h2 class="mb-4 text-center">☕ Coffee Creations</h2>
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/espresso.jpg" class="card-img-top" alt="Espresso" />
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">A single, intense shot of rich, dark coffee.</p>
+              <p class="price fw-bold text-primary">BWP 15</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/cappuccino.jpg" class="card-img-top" alt="Cappuccino" />
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino</h5>
+              <p class="card-text">A smooth blend of espresso and frothed milk.</p>
+              <p class="price fw-bold text-primary">BWP 20</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/vanilla-latte.jpg" class="card-img-top" alt="Latte" />
+            <div class="card-body">
+              <h5 class="card-title">Vanilla Latte</h5>
+              <p class="card-text">Espresso, steamed milk & a touch of vanilla.</p>
+              <p class="price fw-bold text-primary">BWP 22</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries -->
+      <h2 class="mb-4 text-center">🥐 Fresh Pastries</h2>
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/croissant1.jpg" class="card-img-top" alt="Croissant" />
+            <div class="card-body">
+              <h5 class="card-title">Butter Croissant</h5>
+              <p class="card-text">Flaky, golden, and made fresh every morning.</p>
+              <p class="price fw-bold text-primary">BWP 25</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/muffin.jpg" class="card-img-top" alt="Blueberry Muffin" />
+            <div class="card-body">
+              <h5 class="card-title">Blueberry Muffin</h5>
+              <p class="card-text">Juicy berries in a soft, fluffy muffin.</p>
+              <p class="price fw-bold text-primary">BWP 22</p>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/chocolate-cake.jpg" class="card-img-top" alt="Chocolate Cake" />
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Cake</h5>
+              <p class="card-text">Rich, moist, and deeply chocolaty.</p>
+              <p class="price fw-bold text-primary">BWP 30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specials -->
+      <h2 class="mb-4 text-center">🌟 House Specials</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/special1.jpg" class="card-img-top" alt="Cozy Combo" />
+            <div class="card-body">
+              <h5 class="card-title">Cozy Combo</h5>
+              <p class="card-text">Any coffee + pastry of your choice. Perfect for your break!</p>
+              <p class="price fw-bold text-success">BWP 35</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm menu-card">
+            <img src="images/special2.jpg" class="card-img-top" alt="Iced Coffee Delight" />
+            <div class="card-body">
+              <h5 class="card-title">Iced Coffee Delight</h5>
+              <p class="card-text">Chilled espresso, ice, and vanilla cream – summer in a cup.</p>
+              <p class="price fw-bold text-success">BWP 28</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+<footer class="bg-dark-brown text-off-white pt-5 pb-4">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5 class = "footer-text">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-off-white text-decoration-none d-block py-1">Home</a></li>
+          <li><a href="menu.html" class="text-off-white text-decoration-none d-block py-1">Menu</a></li>
+          <li><a href="about.html" class="text-off-white text-decoration-none d-block py-1">About Us</a></li>
+          <li><a href="reservations.html" class="text-off-white text-decoration-none d-block py-1">Reservations</a></li>
+          <li><a href="contact.html" class="text-off-white text-decoration-none d-block py-1">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Details -->
+      <div class="col-md-4">
+        <h5 class = "footer-text">Contact Us</h5>
+        <p><strong>Address:</strong> Main Street, Gaborone, Botswana</p>
+        <p><strong>Phone:</strong> +267 7123 4567</p>
+        <p><strong>Email:</strong> <a href="mailto:info@cozycoffeeshop.com" class="text-off-white text-decoration-underline">info@cozycoffeeshop.com</a></p>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <h5 class = "footer-text">Follow Us</h5>
+        <div class="d-flex flex-column">
+          <a href="https://facebook.com" target="_blank" class="text-off-white text-decoration-none mb-2">Facebook</a>
+          <a href="https://instagram.com" target="_blank" class="text-off-white text-decoration-none mb-2">Instagram</a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-light mt-4" />
+
+    <div class="text-center small">
+      &copy; 2025 The Cozy Coffee Shop. Always Brewing Joy.
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
